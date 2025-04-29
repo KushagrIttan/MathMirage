@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d7b349e4-ffb3-4515-b1a1-3a3f87832889: 1f9f4000-87c4-4a9c-ac48-3a9116994077/9a68cac05762fe1a41f64721bc05caf5/Data/Generated Garment Image.png
+  Assets:
+    - !<FileTexture/d7b349e4-ffb3-4515-b1a1-3a3f87832889>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 768
+  SourceHash: 9a68cac05762fe1a41f64721bc05caf5
+  FileHash: 52b940b2e7f962b4b40cd4f2941e6e18
+  NativePackageItems:
+    []

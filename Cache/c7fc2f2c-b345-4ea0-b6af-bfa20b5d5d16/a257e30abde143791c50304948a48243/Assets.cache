@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6ade53fd-859b-43eb-aabe-dd0f4fb5b6b5: c7fc2f2c-b345-4ea0-b6af-bfa20b5d5d16/a257e30abde143791c50304948a48243/Data/Face Mesh Opacity Texture.jpg
+  Assets:
+    - !<FileTexture/6ade53fd-859b-43eb-aabe-dd0f4fb5b6b5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: a257e30abde143791c50304948a48243
+  FileHash: 6e874f1db98481964232c5ad56ae95a1
+  NativePackageItems:
+    []

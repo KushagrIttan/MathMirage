@@ -1,0 +1,139 @@
+{
+  "tracker_type" : "PetHeatmapTracker",
+  "detector_type" : "NeuralDetectorBase",
+  "track_logic_type" : "NeuralTrackLogicBase",
+
+  "tracker_run_period" : 0.0,
+  "detector_run_period" : 0.0,
+  "tracker_classification_drop_threshold" : 0.85,
+  "tracker_classification_activate_threshold" : 0.9,
+  "detector_confident_threshold" : 0.8,
+  "max_ttl" : 5,
+  "track_update_after_detection_iou_threshold" : 0.7,
+  "track_update_anchor_iou_threshold" : 0.8,
+  "track_drop_duplicates_iou_threshold" : 0.7,
+  "max_track_object_count" : 1,
+
+  "track_object_min_area" : 0.01,
+  "track_box_expansion_ratio" : 1.1,
+
+  "filtering" : [
+    {
+      "component" : "global",
+      "type" : "PetHeatmapFillerFilter",
+      "bbox_multiplier": 3.0,
+      "landmark_labels" : ["center", "lefteye","righteye","nose"],
+      "direction_labels":["main"],
+      "stage" : "before_postprocessing"
+    },
+    {
+      "component" : "bbox_xy",
+      "type" : "AdaptiveMovingAverage",
+      "min_alpha" : 0.8,
+      "sigma2" : 0.075,
+      "stage" : "after_postprocessing"
+    },
+    {
+      "component" : "bbox_wh",
+      "type" : "AdaptiveMovingAverage",
+      "min_alpha" : 0.1,
+      "sigma2" : 0.1,
+      "stage" : "after_postprocessing"
+    },
+    {
+      "component" : "landmark",
+      "type" : "AdaptiveMovingAverage",
+      "min_alpha" : 0.8,
+      "sigma2" : 0.075,
+      "stage" : "after_postprocessing"
+    },
+    {
+      "component" : "direction",
+      "type" : "AdaptiveMovingAverage",
+      "min_alpha" : 0.1,
+      "sigma2" : 0.2,
+      "stage" : "after_postprocessing"
+    }
+  ],
+
+  "smoothing" : {
+    "bbox_xy" : {
+      "type" : "AdaptiveMovingAverage",
+      "min_alpha" : 0.8,
+      "sigma2" : 0.075
+    },
+    "bbox_wh" : {
+      "type" : "AdaptiveMovingAverage",
+      "min_alpha" : 0.1,
+      "sigma2" : 0.05
+    },
+    "landmark" : {
+      "type" : "AdaptiveMovingAverage",
+      "min_alpha" : 0.8,
+      "sigma2" : 0.075
+    },
+    "direction" : {
+      "type" : "AdaptiveMovingAverage",
+      "min_alpha" : 0.1,
+      "sigma2" : 0.2
+    }
+  },
+
+  "detector" : {
+    "image_height" : 128,
+    "image_width" : 128,
+    "model_name" : "catdetector_q6_v2.dnn",
+    "labels" : ["cat"],
+    "threshold" : 0.5,
+    "crop_type" : "Pad",
+    "use_native_aspect_ratio" : true,
+    "nms" : {
+      "eta" : -0.2,
+      "score_threshold" : 0.5,
+      "threshold" : 0.2,
+      "topk" : 50
+    },
+    "coreml_mode": "Disabled",
+    "inference_mean" : [123.0, 117.0, 104.0],
+    "inference_scale" : 0.017,
+
+    "anchor_area" : [256, 1024, 4096, 7225, 16384, 65536],
+    "anchor_scale" : [1.0, 1.26, 1.59],
+    "anchor_ratio" : [1.0],
+
+    "net_input_name" : "data",
+    "layers" : {
+      "localization_head" : [
+        "loc1", "loc2", "loc3",
+        "loc4", "loc5", "loc6"
+        ],
+      "classification_head" : [
+        "cls1", "cls2", "cls3",
+        "cls4", "cls5", "cls6"
+        ]
+    }
+  },
+
+  "tracker" : {
+    "enabled" : false,
+    "image_height" : 128,
+    "image_width" : 128,
+    "model_name" : "cattracker.dnn",
+    "coreml_mode" : "Disabled",
+    "inference_mean" : [123.0, 117.0, 104.0],
+    "inference_scale" : 1,
+    "classification_output_count" : 16,
+    "labels" : ["cat"],
+    "landmark_labels" : [
+       "center",
+       "lefteye",
+       "righteye",
+       "nose"
+    ],
+    "direction_labels" : ["main"],
+    "net_input_name" : "data",
+
+    "classification_head" : "classification",
+    "landmark_head" : "heatmap"
+  }
+}

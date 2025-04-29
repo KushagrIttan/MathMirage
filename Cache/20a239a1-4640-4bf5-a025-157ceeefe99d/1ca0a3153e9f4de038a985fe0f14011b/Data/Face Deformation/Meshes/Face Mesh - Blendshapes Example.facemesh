@@ -1,0 +1,13 @@
+- !<FaceMesh/78c27f7e-4efb-416c-ba0c-a7ceceea9bb1>
+  PackagePath: ""
+  FaceIndex: 0
+  FaceGeometryEnabled: true
+  EyeGeometryEnabled: true
+  EyeCornerGeometryEnabled: true
+  MouthGeometryEnabled: true
+  SkullGeometryEnabled: false
+  EarGeometryEnabled: false
+  ExternalMesh: !<reference> 24d10360-79eb-461d-972f-e98337126212
+  ExternalScale: 1.000000
+  ExpressionMultiplier: 1.000000
+  ExternalMeshMapUV: Texcoord0

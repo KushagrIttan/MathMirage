@@ -1,0 +1,372 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 8821b2a2ea8a0b25cb928e0c1ab379a3
+  FileHash: 6cbab901667dc05182bf62d03589429a
+  NativePackageItems:
+    - !<own> d26877c4-6e6a-452d-b719-5b24c175b31c
+    - !<own> 2b817c7b-d5b1-419b-881c-299cb1c5bfa1
+    - !<own> ccdc879c-01bb-4e6f-ad4c-af8bf450061d
+    - !<own> 6eceef40-6f78-4475-859d-b9ae08bd52a6
+    - !<own> d5ccbe79-c7f9-4fd2-a119-7ab39c99bb6b
+    - !<own> f13650f4-28cb-440a-bd1e-e91414a21bcf
+- !<FaceMaskVisual/11194137-422b-40f8-95d9-08f47ff00d5f>
+  PrefabRemaps:
+    []
+  Name: Face Mask
+  Enabled: true
+  RenderOrder: 0
+  TextureCoordinates:
+    - {x: 0.022359, y: 0.428859}
+    - {x: 0.038912, y: 0.520056}
+    - {x: 0.069156, y: 0.608923}
+    - {x: 0.103054, y: 0.694590}
+    - {x: 0.146609, y: 0.776744}
+    - {x: 0.211221, y: 0.850212}
+    - {x: 0.295138, y: 0.910292}
+    - {x: 0.392008, y: 0.955910}
+    - {x: 0.499150, y: 0.969398}
+    - {x: 0.607138, y: 0.956481}
+    - {x: 0.705427, y: 0.911737}
+    - {x: 0.790459, y: 0.851405}
+    - {x: 0.855267, y: 0.777200}
+    - {x: 0.898026, y: 0.694038}
+    - {x: 0.930776, y: 0.607171}
+    - {x: 0.960242, y: 0.517661}
+    - {x: 0.976673, y: 0.425927}
+    - {x: 0.096477, y: 0.346422}
+    - {x: 0.152171, y: 0.316336}
+    - {x: 0.240865, y: 0.298106}
+    - {x: 0.305155, y: 0.308868}
+    - {x: 0.391805, y: 0.343796}
+    - {x: 0.611292, y: 0.342473}
+    - {x: 0.695622, y: 0.307911}
+    - {x: 0.760870, y: 0.297987}
+    - {x: 0.849638, y: 0.317450}
+    - {x: 0.905159, y: 0.348887}
+    - {x: 0.498969, y: 0.414373}
+    - {x: 0.499569, y: 0.488354}
+    - {x: 0.499384, y: 0.558751}
+    - {x: 0.499291, y: 0.628313}
+    - {x: 0.420274, y: 0.672695}
+    - {x: 0.458381, y: 0.682815}
+    - {x: 0.499528, y: 0.690117}
+    - {x: 0.540688, y: 0.682941}
+    - {x: 0.578700, y: 0.673326}
+    - {x: 0.172821, y: 0.419241}
+    - {x: 0.227034, y: 0.391132}
+    - {x: 0.297492, y: 0.392763}
+    - {x: 0.351119, y: 0.426176}
+    - {x: 0.293618, y: 0.440451}
+    - {x: 0.227190, y: 0.438480}
+    - {x: 0.645251, y: 0.427159}
+    - {x: 0.700148, y: 0.393844}
+    - {x: 0.770865, y: 0.392132}
+    - {x: 0.824990, y: 0.419424}
+    - {x: 0.770552, y: 0.438534}
+    - {x: 0.703871, y: 0.440612}
+    - {x: 0.335569, y: 0.772755}
+    - {x: 0.394680, y: 0.750300}
+    - {x: 0.446801, y: 0.733636}
+    - {x: 0.497864, y: 0.737254}
+    - {x: 0.550244, y: 0.733735}
+    - {x: 0.603079, y: 0.750833}
+    - {x: 0.662001, y: 0.772959}
+    - {x: 0.600074, y: 0.802325}
+    - {x: 0.550835, y: 0.829056}
+    - {x: 0.497124, y: 0.835622}
+    - {x: 0.445902, y: 0.828956}
+    - {x: 0.397376, y: 0.802293}
+    - {x: 0.423436, y: 0.772297}
+    - {x: 0.450686, y: 0.762170}
+    - {x: 0.498922, y: 0.752300}
+    - {x: 0.546549, y: 0.762298}
+    - {x: 0.573476, y: 0.772551}
+    - {x: 0.548347, y: 0.782296}
+    - {x: 0.498922, y: 0.792294}
+    - {x: 0.448263, y: 0.782056}
+    - {x: 0.023051, y: 0.139220}
+    - {x: 0.097239, y: 0.027189}
+    - {x: 0.229744, y: -0.011640}
+    - {x: 0.500000, y: -0.040268}
+    - {x: 0.773460, y: -0.010932}
+    - {x: 0.905924, y: 0.028242}
+    - {x: 0.977354, y: 0.140463}
+  MaskCoordinates:
+    - {x: 0.073706, y: 0.487153}
+    - {x: 0.080785, y: 0.560045}
+    - {x: 0.097254, y: 0.620651}
+    - {x: 0.121210, y: 0.698092}
+    - {x: 0.159849, y: 0.771647}
+    - {x: 0.212539, y: 0.823793}
+    - {x: 0.281121, y: 0.864801}
+    - {x: 0.360761, y: 0.906846}
+    - {x: 0.505500, y: 0.936027}
+    - {x: 0.651094, y: 0.906202}
+    - {x: 0.731432, y: 0.863246}
+    - {x: 0.798964, y: 0.821252}
+    - {x: 0.849093, y: 0.768013}
+    - {x: 0.885037, y: 0.693912}
+    - {x: 0.907038, y: 0.617186}
+    - {x: 0.922623, y: 0.557976}
+    - {x: 0.929542, y: 0.486209}
+    - {x: 0.176687, y: 0.410229}
+    - {x: 0.225535, y: 0.373617}
+    - {x: 0.296287, y: 0.364039}
+    - {x: 0.367767, y: 0.373869}
+    - {x: 0.433904, y: 0.397551}
+    - {x: 0.565579, y: 0.397301}
+    - {x: 0.632911, y: 0.373824}
+    - {x: 0.705550, y: 0.364259}
+    - {x: 0.777265, y: 0.374349}
+    - {x: 0.826665, y: 0.411556}
+    - {x: 0.500528, y: 0.449956}
+    - {x: 0.500177, y: 0.495004}
+    - {x: 0.499794, y: 0.522222}
+    - {x: 0.499353, y: 0.558485}
+    - {x: 0.444626, y: 0.599369}
+    - {x: 0.471634, y: 0.604367}
+    - {x: 0.499352, y: 0.609457}
+    - {x: 0.527251, y: 0.604827}
+    - {x: 0.554210, y: 0.600117}
+    - {x: 0.251307, y: 0.464182}
+    - {x: 0.290232, y: 0.444464}
+    - {x: 0.343609, y: 0.445275}
+    - {x: 0.388640, y: 0.465640}
+    - {x: 0.342435, y: 0.479420}
+    - {x: 0.292040, y: 0.478717}
+    - {x: 0.609089, y: 0.465181}
+    - {x: 0.655053, y: 0.444535}
+    - {x: 0.708250, y: 0.444337}
+    - {x: 0.746406, y: 0.464153}
+    - {x: 0.705204, y: 0.478168}
+    - {x: 0.655020, y: 0.478252}
+    - {x: 0.321834, y: 0.703704}
+    - {x: 0.385165, y: 0.672839}
+    - {x: 0.457629, y: 0.654321}
+    - {x: 0.497949, y: 0.672839}
+    - {x: 0.538753, y: 0.654580}
+    - {x: 0.611452, y: 0.673443}
+    - {x: 0.675077, y: 0.704232}
+    - {x: 0.615712, y: 0.746423}
+    - {x: 0.555154, y: 0.767117}
+    - {x: 0.497426, y: 0.766554}
+    - {x: 0.440112, y: 0.766554}
+    - {x: 0.380224, y: 0.745230}
+    - {x: 0.418662, y: 0.711683}
+    - {x: 0.461407, y: 0.703251}
+    - {x: 0.498001, y: 0.701235}
+    - {x: 0.535036, y: 0.703511}
+    - {x: 0.577079, y: 0.712245}
+    - {x: 0.534382, y: 0.726131}
+    - {x: 0.497687, y: 0.726018}
+    - {x: 0.461407, y: 0.726018}
+    - {x: 0.081534, y: 0.255373}
+    - {x: 0.205652, y: 0.156383}
+    - {x: 0.339052, y: 0.113173}
+    - {x: 0.500065, y: 0.104531}
+    - {x: 0.662180, y: 0.112894}
+    - {x: 0.797056, y: 0.155939}
+    - {x: 0.921123, y: 0.254877}
+  FaceIndex: 0
+  OriginalFaceIndex: 0
+  UseTextureFacePosition: false
+  UseOriginalTexCoords: false
+  DrawMouth: false
+  EnabledLipsFix: true
+  EnabledTeethFix: true
+  TeethFixAlpha: 1.000000
+  MaskOnMouthClosed: !<reference> 00000000-0000-0000-0000-000000000000
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a65146ca-ac99-4015-99c3-031195aaafe3
+  LastNonOriginalTexture: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/2b817c7b-d5b1-419b-881c-299cb1c5bfa1>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> cc08a13e-a6cd-414b-aa73-08ca11e78d9f
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> cc08a13e-a6cd-414b-aa73-08ca11e78d9f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> c7ef9da6-4b92-4dc4-b8e1-12f9f4400c5b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/6eceef40-6f78-4475-859d-b9ae08bd52a6>
+  ImportedAssetIds:
+    Texture: !<reference> c8d5807a-3e86-4bae-ab6b-e7c880d30dfe
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> c8d5807a-3e86-4bae-ab6b-e7c880d30dfe
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium
+  ExtraData:
+    {}
+- !<SceneObject/7d4359dd-9d0b-4a95-8643-521600e8dd84>
+  PrefabRemaps:
+    []
+  Name: Face Mask
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 11194137-422b-40f8-95d9-08f47ff00d5f
+- !<ScriptAssetData/7dcfb96e-af3b-4952-b29e-d3a90877570a>
+  SvgIcon: |-
+    <?xml version="1.0" encoding="UTF-8"?>
+    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182.25 178.77">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #6aa8ff;
+          }
+    
+          .cls-1, .cls-2, .cls-3 {
+            stroke-width: 0px;
+          }
+    
+          .cls-2 {
+            fill: #e088d0;
+          }
+    
+          .cls-3 {
+            fill: #fff;
+          }
+        </style>
+      </defs>
+      <g id="Layer_2-2" data-name="Layer 2">
+        <g>
+          <path class="cls-2" d="M91.25,174.27c-12.99,0-26.07-2.91-37.83-8.43l-10.81-5.07c-23.15-10.85-38.11-34.38-38.11-59.94V10.1l59.51-4.54c9.27-.71,18.69-1.07,27.99-1.07s19.25.38,28.78,1.13l56.96,4.47-.3,91.41c-.09,25.89-15.39,49.5-39,60.13l-10.56,4.76c-11.59,5.22-23.91,7.87-36.63,7.87Z"/>
+          <path class="cls-1" d="M92,9c9.45,0,19.01.37,28.43,1.11l52.8,4.14-.29,87.23c-.08,24.13-14.35,46.13-36.35,56.05l-10.56,4.76c-11.01,4.96-22.71,7.47-34.78,7.47s-24.76-2.77-35.92-8l-10.81-5.07c-21.57-10.11-35.52-32.04-35.52-55.87V14.27l55.35-4.22c9.16-.7,18.46-1.05,27.65-1.05M92,0c-9.45,0-18.9.36-28.33,1.08L0,5.93v94.9c0,27.43,15.86,52.38,40.7,64.02l10.81,5.07c12.59,5.9,26.16,8.85,39.74,8.85s26.24-2.75,38.48-8.27l10.56-4.76c25.27-11.39,41.56-36.5,41.65-64.22l.32-95.58L121.13,1.14c-9.7-.76-19.42-1.14-29.14-1.14h0Z"/>
+        </g>
+        <path class="cls-3" d="M76.52,63.57s-10.6,1.33-23.68,1.33-23.68-1.33-23.68-1.33c0,0,10.6-9.74,23.68-9.74s23.68,9.74,23.68,9.74Z"/>
+        <path class="cls-3" d="M153.1,63.79s-10.6,1.33-23.68,1.33-23.68-1.33-23.68-1.33c0,0,10.6-9.74,23.68-9.74s23.68,9.74,23.68,9.74Z"/>
+        <path class="cls-3" d="M138.05,109.16c0,2.69-21.01,30.76-46.92,30.76s-46.92-28.08-46.92-30.76,93.84-2.69,93.84,0Z"/>
+      </g>
+    </svg>
+  Description: |
+    Face Mask CC
+
+  InternalVersion: 1
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: 6f175688-8bc9-4e1c-af3d-d6fc6695e182
+  ExportUid: 9d4fc9b9-283e-44ab-9540-7b80db2d4e56
+  CurrentVisibility: Locked
+  MaxVisibility: Locked
+  ScriptInputsHidden:
+    facemaskPrefab: true
+    opacity: false
+    texture: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      opacity: !<float> 1.000000
+      facemaskPrefab: !<reference.ObjectPrefab> cc08a13e-a6cd-414b-aa73-08ca11e78d9f
+  ScriptTypes:
+    -
+      {}
+- !<ObjectPrefab/83971612-2b03-4953-af84-307f6d734a21>
+  PackagePath: ""
+  objects:
+    - !<own> 7d4359dd-9d0b-4a95-8643-521600e8dd84
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/c7ef9da6-4b92-4dc4-b8e1-12f9f4400c5b>
+  SourceRemaps:
+    - 58bdf37b-879d-423f-8f3c-72f84b990188: 11194137-422b-40f8-95d9-08f47ff00d5f
+    - 6713254e-a2cd-4852-8373-c7216d0b3a7c: 7d4359dd-9d0b-4a95-8643-521600e8dd84
+  SourceState: !<own> 83971612-2b03-4953-af84-307f6d734a21
+- !<AssetImportMetadata/ccdc879c-01bb-4e6f-ad4c-af8bf450061d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4a1f7e6b-5036-4929-a1cf-bcc1ee237b6d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4a1f7e6b-5036-4929-a1cf-bcc1ee237b6d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7dcfb96e-af3b-4952-b29e-d3a90877570a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/d26877c4-6e6a-452d-b719-5b24c175b31c>
+  ImportedAssetIds:
+    Material: !<reference> a65146ca-ac99-4015-99c3-031195aaafe3
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> a65146ca-ac99-4015-99c3-031195aaafe3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/d5ccbe79-c7f9-4fd2-a119-7ab39c99bb6b>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> d707c361-7e0f-4efb-92b8-b7b4d7eec052
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> d707c361-7e0f-4efb-92b8-b7b4d7eec052
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}
+- !<AssetImportMetadata/f13650f4-28cb-440a-bd1e-e91414a21bcf>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 9f35d9d8-20bf-464e-bcee-a74aae864419
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 9f35d9d8-20bf-464e-bcee-a74aae864419
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  ExtraData:
+    {}

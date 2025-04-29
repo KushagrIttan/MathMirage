@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7c001aca-2870-4649-8951-f9c7bac340a4: 45a7f190-559d-4291-b995-8d0549e693f7/781152d47853ef969ae70bcf8ca0d6d9/Data/einsteinfacemask-texture.jpg
+  Assets:
+    - !<FileTexture/7c001aca-2870-4649-8951-f9c7bac340a4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 781152d47853ef969ae70bcf8ca0d6d9
+  FileHash: 3f870dd2a75d981238657a8d4ad0cb10
+  NativePackageItems:
+    []

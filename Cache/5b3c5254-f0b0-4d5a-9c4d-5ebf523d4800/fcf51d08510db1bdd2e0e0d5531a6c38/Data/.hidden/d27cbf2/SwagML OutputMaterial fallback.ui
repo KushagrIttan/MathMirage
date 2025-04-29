@@ -1,0 +1,203 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "flowHalfPx",
+                	"label":       "flowHalfPx",
+                	"widget":      "spinbox",
+                	"step":        "0",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "0.0"
+                },
+                
+                { 
+                	"bindingName": "flowRelative", 
+                	"label":       "flowRelative", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "flowSelection", 
+                	"label":       "flowSelection", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "sx",
+                	"label":       "sx",
+                	"widget":      "spinbox",
+                	"step":        "1",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "sy",
+                	"label":       "sy",
+                	"widget":      "spinbox",
+                	"step":        "1",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "dx",
+                	"label":       "dx",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "dy",
+                	"label":       "dy",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                { 
+                	"bindingName": "sourceCropTex", 
+                	"label":       "Source Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "segShiftX",
+                	"label":       "segShiftX",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "segRatioX",
+                	"label":       "segRatioX",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "segShiftY",
+                	"label":       "segShiftY",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "segRatioY",
+                	"label":       "segRatioY",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                { 
+                	"bindingName": "sourceParts", 
+                	"label":       "source parts", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"label": "SetByScript",
+                	"widget": "group_start"
+                },                    
+                    { 
+                    	"bindingName": "camTex", 
+                    	"label":       "Camera", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "1",
+                    	"hint":        ""
+                    },
+                    
+                    { 
+                    	"bindingName": "sourceGarmentMask", 
+                    	"label":       "Source Garment Mask", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "1",
+                    	"hint":        ""
+                    },
+                    
+                    { 
+                    	"bindingName": "drivingHairMask", 
+                    	"label":       "Driving Hair Mask", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "1",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "cropCenter",
+                    	"label":       "Crop Center",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "2",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "cropSize",
+                    	"label":       "Crop Size",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "2",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		
+	]
+}

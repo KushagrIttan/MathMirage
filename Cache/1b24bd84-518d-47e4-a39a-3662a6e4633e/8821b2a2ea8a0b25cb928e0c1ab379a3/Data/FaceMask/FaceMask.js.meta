@@ -1,0 +1,71 @@
+- !<AssetImportMetadata/ccdc879c-01bb-4e6f-ad4c-af8bf450061d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4a1f7e6b-5036-4929-a1cf-bcc1ee237b6d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4a1f7e6b-5036-4929-a1cf-bcc1ee237b6d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7dcfb96e-af3b-4952-b29e-d3a90877570a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/dcd68635-8515-4268-8034-53f7efa28cb3>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/7dcfb96e-af3b-4952-b29e-d3a90877570a>
+  SvgIcon: |-
+    <?xml version="1.0" encoding="UTF-8"?>
+    <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182.25 178.77">
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #6aa8ff;
+          }
+    
+          .cls-1, .cls-2, .cls-3 {
+            stroke-width: 0px;
+          }
+    
+          .cls-2 {
+            fill: #e088d0;
+          }
+    
+          .cls-3 {
+            fill: #fff;
+          }
+        </style>
+      </defs>
+      <g id="Layer_2-2" data-name="Layer 2">
+        <g>
+          <path class="cls-2" d="M91.25,174.27c-12.99,0-26.07-2.91-37.83-8.43l-10.81-5.07c-23.15-10.85-38.11-34.38-38.11-59.94V10.1l59.51-4.54c9.27-.71,18.69-1.07,27.99-1.07s19.25.38,28.78,1.13l56.96,4.47-.3,91.41c-.09,25.89-15.39,49.5-39,60.13l-10.56,4.76c-11.59,5.22-23.91,7.87-36.63,7.87Z"/>
+          <path class="cls-1" d="M92,9c9.45,0,19.01.37,28.43,1.11l52.8,4.14-.29,87.23c-.08,24.13-14.35,46.13-36.35,56.05l-10.56,4.76c-11.01,4.96-22.71,7.47-34.78,7.47s-24.76-2.77-35.92-8l-10.81-5.07c-21.57-10.11-35.52-32.04-35.52-55.87V14.27l55.35-4.22c9.16-.7,18.46-1.05,27.65-1.05M92,0c-9.45,0-18.9.36-28.33,1.08L0,5.93v94.9c0,27.43,15.86,52.38,40.7,64.02l10.81,5.07c12.59,5.9,26.16,8.85,39.74,8.85s26.24-2.75,38.48-8.27l10.56-4.76c25.27-11.39,41.56-36.5,41.65-64.22l.32-95.58L121.13,1.14c-9.7-.76-19.42-1.14-29.14-1.14h0Z"/>
+        </g>
+        <path class="cls-3" d="M76.52,63.57s-10.6,1.33-23.68,1.33-23.68-1.33-23.68-1.33c0,0,10.6-9.74,23.68-9.74s23.68,9.74,23.68,9.74Z"/>
+        <path class="cls-3" d="M153.1,63.79s-10.6,1.33-23.68,1.33-23.68-1.33-23.68-1.33c0,0,10.6-9.74,23.68-9.74s23.68,9.74,23.68,9.74Z"/>
+        <path class="cls-3" d="M138.05,109.16c0,2.69-21.01,30.76-46.92,30.76s-46.92-28.08-46.92-30.76,93.84-2.69,93.84,0Z"/>
+      </g>
+    </svg>
+  Description: |
+    Face Mask CC
+
+  InternalVersion: 1
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: 6f175688-8bc9-4e1c-af3d-d6fc6695e182
+  ExportUid: 9d4fc9b9-283e-44ab-9540-7b80db2d4e56
+  CurrentVisibility: Locked
+  MaxVisibility: Locked
+  ScriptInputsHidden:
+    facemaskPrefab: true
+    opacity: false
+    texture: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      opacity: !<float> 1.000000
+      facemaskPrefab: !<reference.ObjectPrefab> cc08a13e-a6cd-414b-aa73-08ca11e78d9f
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,11 @@
+{
+    "labels" : ["cat"],
+    "event_labels" : [],
+    "landmark_labels" : [
+        "center",
+        "lefteye",
+        "righteye",
+        "nose"
+     ],
+     "rotation_labels" : ["main"]
+}

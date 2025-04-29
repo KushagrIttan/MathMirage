@@ -1,0 +1,167 @@
+- !<AssetImportMetadata/6e7538d8-34ff-484d-99cb-261bb7b58d22>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> ef8059c9-1065-40bb-8fa4-7f0a9f743bd4
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> ef8059c9-1065-40bb-8fa4-7f0a9f743bd4
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 8b878761-c0fa-469f-b6ab-882f6550e18e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/57c20f2d-67f2-4e14-ac58-3e3cac978685>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/16694f81-203e-4152-8d1a-becec410974c>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 25f72e8d-3a49-4ed3-8614-c84d2afc25ac
+  Mesh: !<reference> 0b4b4cc7-1006-49a1-96d9-d4a85a4e0ae3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/36964535-b08a-469e-9544-7b2876ecf63f>
+  PrefabRemaps:
+    []
+  Name: Hair 3D Binding
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 76098a08-bf72-48eb-9918-37f273028c95
+    - !<own> be7844be-8f63-4459-bf13-533af751aa4e
+    - !<own> f2422821-3ea9-4bc4-996d-9ecde3b7ba04
+  Components:
+    - !<own> dc702461-043f-4466-83da-4fe31e120e91
+- !<RenderMeshVisual/588adb8c-a49f-4849-be5e-9832aea912b9>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 25f72e8d-3a49-4ed3-8614-c84d2afc25ac
+  Mesh: !<reference> 1548f33d-e6e8-4794-890d-79047dd07235
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/76098a08-bf72-48eb-9918-37f273028c95>
+  PrefabRemaps:
+    []
+  Name: Head Mesh
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 588adb8c-a49f-4849-be5e-9832aea912b9
+- !<ObjectPrefabAssetData/8b878761-c0fa-469f-b6ab-882f6550e18e>
+  SourceRemaps:
+    - 13351304-9c7c-444c-8724-644a549db79f: cb9b664f-7e61-4317-bb08-f35f0add1dc6
+    - 46a34ce9-cae7-4fa7-863c-5d4bd6b6bbd4: dc702461-043f-4466-83da-4fe31e120e91
+    - 73a0d7f8-8195-4095-a137-95f0627ef3c5: 588adb8c-a49f-4849-be5e-9832aea912b9
+    - 7a2c2f13-3734-42af-bf78-65c565527a88: 76098a08-bf72-48eb-9918-37f273028c95
+    - 871932b2-f433-4621-8a7c-a8345d818004: f2422821-3ea9-4bc4-996d-9ecde3b7ba04
+    - 8bb25bc2-4b18-4694-806a-aaa6bed8595c: 16694f81-203e-4152-8d1a-becec410974c
+    - b1425b83-37ae-4c51-9e18-bc519027766d: be7844be-8f63-4459-bf13-533af751aa4e
+    - be352271-3860-4a22-8aef-5e3ae90e8018: 36964535-b08a-469e-9544-7b2876ecf63f
+    - ef8059c9-1065-40bb-8fa4-7f0a9f743bd4: 9303374d-4a00-42ae-9e7f-d19646c51f56
+  SourceState: !<own> 9303374d-4a00-42ae-9e7f-d19646c51f56
+- !<ObjectPrefab/9303374d-4a00-42ae-9e7f-d19646c51f56>
+  PackagePath: ""
+  objects:
+    - !<own> 36964535-b08a-469e-9544-7b2876ecf63f
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/be7844be-8f63-4459-bf13-533af751aa4e>
+  PrefabRemaps:
+    []
+  Name: Neck occluder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.028248, y: 0.000000, z: -1.459845}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cb9b664f-7e61-4317-bb08-f35f0add1dc6
+  Components:
+    []
+- !<SceneObject/cb9b664f-7e61-4317-bb08-f35f0add1dc6>
+  PrefabRemaps:
+    []
+  Name: Cylinder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -9.303414, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 13.078013, y: 25.000000, z: 13.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 16694f81-203e-4152-8d1a-becec410974c
+- !<Head/dc702461-043f-4466-83da-4fe31e120e91>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<SceneObject/f2422821-3ea9-4bc4-996d-9ecde3b7ba04>
+  PrefabRemaps:
+    []
+  Name: hair_binding
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.092177, y: -44.032673, z: 5.352665}
+    rotation: {x: -0.691132, y: 0.000000, z: 0.000000}
+    scale: {x: 55.000000, y: 55.000004, z: 55.000004}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []

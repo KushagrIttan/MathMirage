@@ -1,0 +1,97 @@
+- !<Material/ec3990e4-76eb-44ab-a90e-e54a742860da>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 213658cb-f4c3-49a8-814b-77dd30f5de67
+- !<PassInfo/213658cb-f4c3-49a8-814b-77dd30f5de67>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_RangeMaxA_N003:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N011:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N003:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N011:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMinA_N003:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N011:
+      typeIdx: 1
+      value: -1.000000
+    Port_RangeMinB_N003:
+      typeIdx: 1
+      value: -1.000000
+    Port_RangeMinB_N011:
+      typeIdx: 1
+      value: 0.000000
+    Port_Value2_N001:
+      typeIdx: 1
+      value: 1.000000
+    Port_Value2_N005:
+      typeIdx: 1
+      value: 1.000000
+    Port_Value2_N019:
+      typeIdx: 1
+      value: 0.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 996c6f4e-b2ad-4117-9e3e-3db82e6e97f5
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    baseTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    realModelMatrix:
+      typeIdx: 8
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000, w: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000, w: 0.000000}
+        3: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    uv2Matrix:
+      typeIdx: 8
+      value:
+        0: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000, w: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000, w: 0.000000}
+        3: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+  Pass: !<reference> 69cf671f-1ecf-4825-baac-4c4ae2fdfe70

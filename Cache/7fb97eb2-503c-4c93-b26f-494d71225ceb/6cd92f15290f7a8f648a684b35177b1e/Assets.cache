@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a58bbf31-1624-4255-8471-ef8e769a15d5: 7fb97eb2-503c-4c93-b26f-494d71225ceb/6cd92f15290f7a8f648a684b35177b1e/Data/final.webp
+  Assets:
+    - !<FileTexture/a58bbf31-1624-4255-8471-ef8e769a15d5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1792
+        Height: 1024
+  SourceHash: 6cd92f15290f7a8f648a684b35177b1e
+  FileHash: 85fb8b8347afc566f8c7d20304a395f8
+  NativePackageItems:
+    []

@@ -1,0 +1,6 @@
+- !<SegmentationTexture/ad3ac241-b04c-4fc4-be97-da3f913f17f1>
+  PackagePath: ""
+  SegmentationType: Body
+  InvertMask: false
+  Feathering: 0.500000
+  RefineEdge: true

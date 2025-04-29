@@ -1,0 +1,37 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 31
+    values:
+      - Base.png
+      - Easy Lens
+      - Easy Lens/Generated Assets
+      - Easy Lens/Generated Assets/einsteinfacemask-texture.jpg
+      - Easy Lens/Generated Assets/einsteinhair-model.glb
+      - Easy Lens/Generated Assets/einsteinhair-model.glb/.hidden
+      - Easy Lens/Generated Assets/einsteinhair-model.glb/.hidden/hair_MAT
+      - Easy Lens/Generated Assets/einsteinhair-model.glb/Materials
+      - Easy Lens/Generated Assets/einsteinhair-model.glb/Materials/hair_MAT
+      - Easy Lens/Generated Assets/einsteinhair-model.glb/Meshes
+      - Easy Lens/Generated Assets/einsteinhair-model.glb/Meshes/C_hair_GEO
+      - Easy Lens/Generated Assets/einsteinhair-model.glb/Textures
+      - Easy Lens/Generated Assets/einsteinhair-model.glb/Textures/new_image.jpg
+      - Easy Lens/Generated Assets/einsteinhair-model.glb/einsteinhair-model
+      - Easy Lens/Lens Components
+      - Easy Lens/Lens Components/Face_Deformation.lsc
+      - Easy Lens/Lens Components/Face_Mask.lsc
+      - Easy Lens/Lens Components/Hair3D.lsc
+      - Image.mat
+      - Image.png
+      - MaterialParams.png
+      - Normal.png
+      - PBR.mat
+      - Segmentation Texture 2.segmentationTexture
+      - Segmentation Texture.segmentationTexture
+      - Sphere.mesh
+      - Unlit.mat
+      - final.webp
+      - flat.ss_graph
+      - pbr.ss_graph
+      - unlit.ss_graph
+  options: 4

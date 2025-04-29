@@ -1,0 +1,29 @@
+- !<AssetCache>
+  AssetFiles:
+    24d10360-79eb-461d-972f-e98337126212: 88823ffe-fd95-462e-939e-94d204407f07/5f9bb94d0a00b1dce209ae10bb107a4f/Data/External_Face_Mesh_With_Blendshapes.mesh
+  Assets:
+    - !<FileMesh/24d10360-79eb-461d-972f-e98337126212>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2568
+        Vertices: 7704
+        Blendshapes:
+          - Left_eye_bigger
+          - Right_eye_bigger
+          - Left_eye_smaller
+          - Right_eye_smaller
+          - Nose_smaller
+          - Nose_bigger
+          - Mouth_wider
+          - Mouth_narrower
+          - Mouth_taller
+          - Mouth_smaller
+          - Cheekbones_bigger
+          - Cheeks_smaller
+          - Cheeks_bigger
+        Joints: 0
+        AabbSize: {x: 14.437500, y: 18.679688, z: 10.656250}
+  SourceHash: 5f9bb94d0a00b1dce209ae10bb107a4f
+  FileHash: cc4158923c1ae8a1f41b41a1ca9d40af
+  NativePackageItems:
+    []

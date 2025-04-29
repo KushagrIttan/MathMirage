@@ -1,0 +1,41 @@
+studioVersion:
+  major: 5
+  minor: 6
+  patch: 2
+  build: 25021502
+  type: Public
+updateCheckpoint: 55
+sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+viewConfig:
+  simulation:
+    device: No Simulation
+    cameraFov: 66.519997
+    fullFrameAspect: nan
+    resolutionScale: 1.000000
+    viewport: Maximized
+    output: Live
+    stereoOutputEye: Center
+    deviceTypeOverride: Unknown
+  cameraType: Front
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: HackCore
+  lensDescriptors:
+    []
+  lensApplicability:
+    - Front
+    - Back
+  lensClientCompatibilities:
+    - Mobile
+    - Web
+    - Spectacles
+  platformBundlesEnabled: false
+  iconHash: 451a5a84b04e0c45fdc926a65e6f2701
+  videoPreviewHash: ""
+  fromTemplateName: Default
+  fromTemplateUrl: Lens Studio 5.6.2.25021502
+  activationCamera: Front
+  sourceMapEnabled: false

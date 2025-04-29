@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f2fcd365-863b-4651-8d13-3e02750690fa: 68d5028a-539e-440a-a539-6235f0e45005/a4d42dacb613473c9dc85162ef1dc9e8/Data/Generated Garment Mask.png
+  Assets:
+    - !<FileTexture/f2fcd365-863b-4651-8d13-3e02750690fa>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 768
+  SourceHash: a4d42dacb613473c9dc85162ef1dc9e8
+  FileHash: d39b7a52be904850eed44911859e7229
+  NativePackageItems:
+    []

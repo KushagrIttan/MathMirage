@@ -1,0 +1,139 @@
+- !<ObjectPrefab/ef8059c9-1065-40bb-8fa4-7f0a9f743bd4>
+  PackagePath: ""
+  objects:
+    - !<own> be352271-3860-4a22-8aef-5e3ae90e8018
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/13351304-9c7c-444c-8724-644a549db79f>
+  PrefabRemaps:
+    []
+  Name: Cylinder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -9.303414, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 13.078013, y: 25.000000, z: 13.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8bb25bc2-4b18-4694-806a-aaa6bed8595c
+- !<Head/46a34ce9-cae7-4fa7-863c-5d4bd6b6bbd4>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<RenderMeshVisual/73a0d7f8-8195-4095-a137-95f0627ef3c5>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 25f72e8d-3a49-4ed3-8614-c84d2afc25ac
+  Mesh: !<reference> 1548f33d-e6e8-4794-890d-79047dd07235
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7a2c2f13-3734-42af-bf78-65c565527a88>
+  PrefabRemaps:
+    []
+  Name: Head Mesh
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 73a0d7f8-8195-4095-a137-95f0627ef3c5
+- !<SceneObject/871932b2-f433-4621-8a7c-a8345d818004>
+  PrefabRemaps:
+    []
+  Name: hair_binding
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.092177, y: -44.032673, z: 5.352665}
+    rotation: {x: -0.691132, y: 0.000000, z: 0.000000}
+    scale: {x: 55.000000, y: 55.000004, z: 55.000004}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<RenderMeshVisual/8bb25bc2-4b18-4694-806a-aaa6bed8595c>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 25f72e8d-3a49-4ed3-8614-c84d2afc25ac
+  Mesh: !<reference> 0b4b4cc7-1006-49a1-96d9-d4a85a4e0ae3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b1425b83-37ae-4c51-9e18-bc519027766d>
+  PrefabRemaps:
+    []
+  Name: Neck occluder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.028248, y: 0.000000, z: -1.459845}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 13351304-9c7c-444c-8724-644a549db79f
+  Components:
+    []
+- !<SceneObject/be352271-3860-4a22-8aef-5e3ae90e8018>
+  PrefabRemaps:
+    []
+  Name: Hair 3D Binding
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7a2c2f13-3734-42af-bf78-65c565527a88
+    - !<own> b1425b83-37ae-4c51-9e18-bc519027766d
+    - !<own> 871932b2-f433-4621-8a7c-a8345d818004
+  Components:
+    - !<own> 46a34ce9-cae7-4fa7-863c-5d4bd6b6bbd4

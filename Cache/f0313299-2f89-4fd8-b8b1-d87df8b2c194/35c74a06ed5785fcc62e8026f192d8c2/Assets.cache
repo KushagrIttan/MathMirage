@@ -1,0 +1,232 @@
+- !<AssetCache>
+  AssetFiles:
+    15fd0510-7b23-43d4-8621-3bb8c55673ae: f0313299-2f89-4fd8-b8b1-d87df8b2c194/35c74a06ed5785fcc62e8026f192d8c2/Data/hair.ss_graph
+  Assets:
+    - !<ShaderGraphPass/15fd0510-7b23-43d4-8621-3bb8c55673ae>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Base_N003:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.000000, z: 0.015686, w: 1.000000}
+        Port_Color_N003:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input0_N002:
+          typeIdx: 8
+          value:
+            0: {x: 1.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            1: {x: 0.000000, y: 1.000000, z: 0.000000, w: 0.000000}
+            2: {x: 0.000000, y: 0.000000, z: 1.000000, w: 0.000000}
+            3: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_Input0_N005:
+          typeIdx: 5
+          value: {x: 0.078431, y: 0.000000, z: 0.666667, w: 0.000000}
+        Port_Input0_N062:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N002:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Input1_N005:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.000000, z: 0.015686, w: 1.000000}
+        Port_Input1_N009:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input1_N010:
+          typeIdx: 1
+          value: -0.215000
+        Port_Input1_N011:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N013:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N014:
+          typeIdx: 1
+          value: 4.000000
+        Port_Input1_N021:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N032:
+          typeIdx: 1
+          value: 0.250000
+        Port_Input1_N033:
+          typeIdx: 1
+          value: 16.000000
+        Port_Input1_N035:
+          typeIdx: 1
+          value: 0.200000
+        Port_Input1_N041:
+          typeIdx: 1
+          value: 64.000000
+        Port_Input1_N043:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N054:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N056:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N061:
+          typeIdx: 1
+          value: 8.000000
+        Port_Input2_N021:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N059:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_Mask_N003:
+          typeIdx: 1
+          value: 1.000000
+        Port_Multiplier_N025:
+          typeIdx: 1
+          value: 0.500000
+        Port_Multiplier_N029:
+          typeIdx: 1
+          value: 0.250000
+        Port_Multiplier_N038:
+          typeIdx: 1
+          value: 1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_UVCoord_N000:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value3_N028:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N028:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N039:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value4_N051:
+          typeIdx: 1
+          value: 1.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Marix
+            mType: Property
+            mName: mat
+            mWidget: matrix
+            mHint: "Property: mat"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Center Pos
+            mType: Property
+            mName: ceneter_pos
+            mWidget: spinbox
+            mHint: "Property: ceneter_pos"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: use_dynamic
+            mType: Property
+            mName: use_dynamic
+            mWidget: checkbox
+            mHint: "Property: use_dynamic"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Map
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: f0313299-2f89-4fd8-b8b1-d87df8b2c194/35c74a06ed5785fcc62e8026f192d8c2/Data/d27cbf2/hair.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 35c74a06ed5785fcc62e8026f192d8c2
+  FileHash: ba339601f9f65f17ff665f47470c0eac
+  NativePackageItems:
+    []

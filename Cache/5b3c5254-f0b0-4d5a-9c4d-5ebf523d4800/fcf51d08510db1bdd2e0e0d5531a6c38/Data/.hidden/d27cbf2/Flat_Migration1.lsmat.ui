@@ -1,0 +1,85 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "baseColor",
+                	"label":       "Base Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "Specifies the base color (albedo) of the material if the 'Base Textre' is disabled. \nMultiplied with the 'Base Texture' otherwise.",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"label":       "Base Texture",
+                	"bindingName": "ENABLE_BASE_TEX",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        "Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color."
+                }
+                ,                    
+                    { 
+                    	"bindingName": "baseTex", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "2",
+                    	"hint":        ""
+                    },
+                {
+                	"_bindingName": "ENABLE_BASE_TEX",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label":       "Opacity Texture",
+                	"bindingName": "ENABLE_OPACITY_TEX",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        "Normally, the Base Texture's alpha is taken as opacity. Enabling this allows you to define a separate greyscale opacity texture. \nThe 'Opacity Texture' value will be multiplied with the Base Texture's alpha (which is 1 for textures without alpha) to get the final opacity. \n'Opacity Texture' is only available if 'Blend Mode' is not 'Disabled'."
+                }
+                ,                    
+                    { 
+                    	"bindingName": "opacityTex", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "11",
+                    	"hint":        ""
+                    },
+                {
+                	"_bindingName": "ENABLE_OPACITY_TEX",
+                	"widget": "group_end"
+                }
+                ,
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}
